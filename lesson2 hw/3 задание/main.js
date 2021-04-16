@@ -78,7 +78,8 @@ inputsTopping.forEach( input => {
     });
 });
 
-orderBtn.addEventListener('click', () => {
+orderBtn.addEventListener('click', (event) => {
+    event.preventDefault();
     result.innerHTML = `Калорийность: ${burger.calculateCalories()}, цена: ${burger.calculatePrice()}`;
 });
 
