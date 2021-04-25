@@ -1,0 +1,17 @@
+label {
+    display: block;
+    margin-bottom: 30px;
+}
+fieldset {
+    width: 400px;
+    text-align: center;
+}
+
+.warning {
+    border: 2px solid red;
+}
+
+div {
+    font-weight: bold;
+    color: red;
+}
